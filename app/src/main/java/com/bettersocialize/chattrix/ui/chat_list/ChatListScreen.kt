@@ -1,4 +1,8 @@
 package com.bettersocialize.chattrix.ui.chat_list
 
-class ChatListScreen {
+import androidx.compose.runtime.Composable
+
+@Composable
+fun ChatListScreen() {
+    val messages
 }
