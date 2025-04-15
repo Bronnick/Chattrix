@@ -12,7 +12,20 @@
           "package_name": "com.bettersocialize.chattrix"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "135404554623-095mebrvgrs0u7qisfkr0o6l0anc7lr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bettersocialize.chattrix",
+            "certificate_hash": "72a2da5719f43e43f619ad18ec94c1409c11dab4"
+          }
+        },
+        {
+          "client_id": "135404554623-koff2buj2v52a85plo0uo2uvfn19mm6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA7p1VcgVhb7RqASo-nRWc_zunOmck0k1I"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135404554623-3vqv0m8br3l29aksejueq2eapca6c4pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

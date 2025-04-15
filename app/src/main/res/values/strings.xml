@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Chattrix</string>
+    <string name="chat_list">Chats</string>
+    <string name="settings">Settings</string>
 </resources>

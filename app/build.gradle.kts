@@ -54,8 +54,18 @@ dependencies {
     implementation(libs.androidx.material3)
 
     implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
-    implementation("com.google.firebase:firebase-analytics")
-    implementation("com.google.firebase:firebase-auth")
+    implementation(libs.firebase.analytics)
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation(libs.firebase.auth)
+
+    implementation (libs.androidx.navigation.compose)
+
+    implementation (libs.androidx.lifecycle.viewmodel.compose)
+    implementation (libs.androidx.lifecycle.livedata.ktx)
+    implementation (libs.androidx.runtime.livedata)
+
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
